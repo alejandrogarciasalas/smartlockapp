@@ -5,7 +5,7 @@ u-user = ''
 t-token = ''
 s-secret = ''
 
-messaging_api = bandwidth.client('messaging', u-user, t-token, s-secret)
+messaging_api = bandwidth.client('messaging', u_user, t_token, s_secret)
 
 app = Flask(__name__)
 
